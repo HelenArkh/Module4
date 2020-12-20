@@ -12,7 +12,7 @@ namespace Module4
             Console.WriteLine(result);
             Console.WriteLine();
 
-            FavoriteColor.MyFavoriteColor();
+            FavoriteColor.MyFavoriteColorSwitch();
 
 
             var a = 6;
