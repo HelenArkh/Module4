@@ -12,6 +12,8 @@ namespace Module4
             Console.WriteLine(result);
             Console.WriteLine();
 
+            CountingTheSum.CountingTheSumOfPositiveNumbers();
+
             FavoriteColor.MyFavoriteColorWhile();
             //FavoriteColor.MyFavoriteColorDoWhile();
 
