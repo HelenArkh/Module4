@@ -12,7 +12,8 @@ namespace Module4
             Console.WriteLine(result);
             Console.WriteLine();
 
-            FavoriteColor.MyFavoriteColorSwitch();
+            FavoriteColor.MyFavoriteColorWhile();
+            //FavoriteColor.MyFavoriteColorDoWhile();
 
 
             var a = 6;
