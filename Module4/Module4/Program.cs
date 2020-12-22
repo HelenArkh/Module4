@@ -12,9 +12,15 @@ namespace Module4
             Console.WriteLine(result);
             Console.WriteLine();
 
+
+            SmallestElementOfAnArray.ReverseOrder();
+           // SmallestElementOfAnArray.Name();
+
+           // SmallestElementOfAnArray.WhichElementIsSmallest();
+
            // CountingTheSum.CountingTheSumOfPositiveNumbers();
 
-            FavoriteColor.MyFavoriteColorMassive();
+          // FavoriteColor.MyFavoriteColorMassive();
             //FavoriteColor.MyFavoriteColorDoWhile();
 
 

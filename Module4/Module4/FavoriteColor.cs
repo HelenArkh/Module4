@@ -179,7 +179,7 @@ namespace Module4
                 Console.WriteLine("Введите любимый цвет номер {0}", i+1);
                 favcolors[i] = Console.ReadLine();
             }
-          
+          //  Console.WriteLine(favcolors[3]);
             foreach (var color in favcolors)
             {
                 switch (color)
