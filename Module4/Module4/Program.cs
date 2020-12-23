@@ -46,6 +46,9 @@ namespace Module4
                 Console.WriteLine();
             }
 
+            Sorting.SortingOneDimensionalArray();
+            Sorting.Sum();
+
             //  SmallestElementOfAnArray.ReverseOrder();
             // SmallestElementOfAnArray.Name();
 
