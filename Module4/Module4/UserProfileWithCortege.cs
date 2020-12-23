@@ -8,7 +8,7 @@ namespace Module4
     {
         public static void Questionnaire()
         {
-            (string name, int age) anketa;
+           (string name, int age) anketa;
 
             Console.Write("Enter your name: ");
             anketa.name = Console.ReadLine();
@@ -22,6 +22,24 @@ namespace Module4
             var birthdate = Console.ReadLine();
 
             Console.WriteLine("Your birthdate is {0}", birthdate);
+
+        }
+        public static void Questionnaire443()
+        {
+            var (name, age) = ("Евгения", 27);
+
+            Console.WriteLine("Ваше имя: {0}", name);
+            Console.WriteLine("Ваш возраст: {0}", age);
+
+
+
+            Console.Write("Enter your name: ");
+            name = Console.ReadLine();
+
+            Console.Write("Enter your age: ");
+            age = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Your name is {0} and age is {1}", name, age);
 
         }
     }

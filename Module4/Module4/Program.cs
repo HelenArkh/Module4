@@ -46,7 +46,7 @@ namespace Module4
                 Console.WriteLine();
             }
 
-            UserProfileWithCortege.Questionnaire();
+            UserProfileWithCortege.Questionnaire443();
 
             //Sorting.SortingOneDimensionalArray();
             //Sorting.ForceMassMass();
