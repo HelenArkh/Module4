@@ -179,9 +179,19 @@ namespace Module4
                 Console.WriteLine("Введите любимый цвет номер {0}", i+1);
                 favcolors[i] = Console.ReadLine();
             }
-          //  Console.WriteLine(favcolors[3]);
+            //  Console.WriteLine(favcolors[3]);
+
             foreach (var color in favcolors)
             {
+                foreach (var item in color)
+                {
+                    Console.Write(item + " ");
+                }
+            }
+            Console.WriteLine();
+            foreach (var color in favcolors)
+            {
+                
                 switch (color)
                 {
                     case "red":
@@ -210,6 +220,8 @@ namespace Module4
                         break;
                 }
             }
+
+
         }
         }
 }

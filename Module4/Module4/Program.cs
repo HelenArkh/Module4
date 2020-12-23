@@ -46,8 +46,8 @@ namespace Module4
                 Console.WriteLine();
             }
 
-            Sorting.SortingOneDimensionalArray();
-            Sorting.Sum();
+            //Sorting.SortingOneDimensionalArray();
+            Sorting.ForceMassMass();
 
             //  SmallestElementOfAnArray.ReverseOrder();
             // SmallestElementOfAnArray.Name();
@@ -56,7 +56,7 @@ namespace Module4
 
             // CountingTheSum.CountingTheSumOfPositiveNumbers();
 
-            // FavoriteColor.MyFavoriteColorMassive();
+           // FavoriteColor.MyFavoriteColorMassive();
             //FavoriteColor.MyFavoriteColorDoWhile();
 
 
