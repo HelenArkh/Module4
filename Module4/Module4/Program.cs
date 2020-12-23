@@ -46,7 +46,7 @@ namespace Module4
                 Console.WriteLine();
             }
 
-            UserProfileWithCortege.Pet();
+            UserProfileWithCortege.UserSurvey();
 
             //Sorting.SortingOneDimensionalArray();
             //Sorting.ForceMassMass();
