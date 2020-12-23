@@ -42,5 +42,38 @@ namespace Module4
             Console.WriteLine("Your name is {0} and age is {1}", name, age);
 
         }
+        public static void Pet()
+        {
+            (string name,string type,double age,int nameCount) Pet;
+
+
+
+            Console.Write("Введите имя питомца: ");
+            Pet.name = Console.ReadLine();
+
+            Console.Write("Введите возраст: ");
+            Pet.age = double.Parse(Console.ReadLine());
+
+            Console.Write("Введите тип питомца: ");
+            Pet.type = Console.ReadLine();
+
+            Pet.nameCount = 0;
+            foreach(var letter in Pet.name)
+            {
+                Pet.nameCount++;
+            }
+
+            //можно было сделать проще:
+           // Pet.nameCount = Pet.name.Length;
+
+
+
+            Console.WriteLine("Имя вашего питомца {0} и возраст {1}", Pet.name, Pet.age);
+            Console.WriteLine("Что за питомец: {0}", Pet.type);
+            Console.WriteLine("Длина имени питомца: {0}", Pet.nameCount);
+
+
+
+        }
     }
 }
