@@ -47,7 +47,9 @@ namespace Module4
             }
 
             //Sorting.SortingOneDimensionalArray();
-            Sorting.ForceMassMass();
+            //Sorting.ForceMassMass();
+            //Sorting.NumberOfPositiveTwoDimensionalArray();
+            Sorting.SortingTwoDimensionalArray();
 
             //  SmallestElementOfAnArray.ReverseOrder();
             // SmallestElementOfAnArray.Name();

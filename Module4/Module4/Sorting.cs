@@ -30,6 +30,34 @@ namespace Module4
                 Console.Write(item + " ");
             }
         }
+        public static void SortingTwoDimensionalArray()
+        {
+            int[,] arr = { { -5, 6, 9, 1, 2, -3}, {-8,8,1,1,2,-3 } };
+
+
+            int value;
+
+            for (int t = 0; t <= arr.GetUpperBound(0); t++)
+            {
+                for (int i = 0; i <= arr.GetUpperBound(1); i++)
+                {
+                    for (int j = i + 1; j <= arr.GetUpperBound(1); j++)
+                    {
+
+                        if (arr[t,i] > arr[t,j])
+                        {
+                            value = arr[t,i];
+                            arr[t,i] = arr[t,j];
+                            arr[t, j] = value;
+                        }
+                    }
+                }
+            }
+            foreach (var item in arr)
+            {
+                Console.Write(item + " ");
+            }
+        }
 
         public static void Sum()
         {
@@ -59,5 +87,35 @@ namespace Module4
                 }
             }
         }
+        public static void NumberOfPositive()
+        {
+            var mass = new int[] { 5, -6, 9, -1, 2, 3, -4 };
+            int count = 0;
+            
+            foreach(var item in mass)
+            {
+                if(item>0)
+                {
+                    count++;
+                }
+            }
+            Console.WriteLine("Количество положительных чисел в массиве: {0}", count);
+        }
+        public static void NumberOfPositiveTwoDimensionalArray()
+        {
+            int[,] arr = { { -5, 6, 9, 1, 2, -3 }, { -8, 8, 1, 1, 2, -3 } };
+            int count = 0;
+
+            foreach (var item in arr)
+            {
+                if (item > 0)
+                {
+                    count++;
+                }
+            }
+            Console.WriteLine("Количество положительных чисел в двумерном массиве: {0}", count);
+        }
+
+
     }
 }
