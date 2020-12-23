@@ -12,15 +12,48 @@ namespace Module4
             Console.WriteLine(result);
             Console.WriteLine();
 
+            int[,] array = { { 1, 2, 3 }, { 5, 6, 7 }, { 8, 9, 10 }, { 11, 12, 13 } }; 
+            Console.WriteLine(array[0, 0]);
 
-            SmallestElementOfAnArray.ReverseOrder();
-           // SmallestElementOfAnArray.Name();
+            foreach(var item in array)
+            {
+                Console.Write(item + " ");
+            }
 
-           // SmallestElementOfAnArray.WhichElementIsSmallest();
+            Console.Write("Количество строк: ");
+            Console.WriteLine(array.GetUpperBound(0) + 1 + " ");
 
-           // CountingTheSum.CountingTheSumOfPositiveNumbers();
+            Console.Write("Количество колонок: ");
+            Console.WriteLine(array.GetUpperBound(1) + 1 + " ");
 
-          // FavoriteColor.MyFavoriteColorMassive();
+            for (int i=0; i<array.GetUpperBound(0)+1; i++) 
+            {
+                for (int k=0; k<array.GetUpperBound(1) + 1; k++)
+                {
+                    Console.Write(array[i, k] + " ");
+                }
+                Console.WriteLine();
+            }
+
+            Console.WriteLine("А теперь выведем по колонкам:");
+
+            for (int i=0; i<array.GetUpperBound(1) + 1; i++)
+            {
+                for(int k=0; k<array.GetUpperBound(0) + 1;k++)
+                {
+                    Console.Write(array[k, i] + " ");
+                }
+                Console.WriteLine();
+            }
+
+            //  SmallestElementOfAnArray.ReverseOrder();
+            // SmallestElementOfAnArray.Name();
+
+            // SmallestElementOfAnArray.WhichElementIsSmallest();
+
+            // CountingTheSum.CountingTheSumOfPositiveNumbers();
+
+            // FavoriteColor.MyFavoriteColorMassive();
             //FavoriteColor.MyFavoriteColorDoWhile();
 
 
