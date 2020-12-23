@@ -46,10 +46,12 @@ namespace Module4
                 Console.WriteLine();
             }
 
+            UserProfileWithCortege.Questionnaire();
+
             //Sorting.SortingOneDimensionalArray();
             //Sorting.ForceMassMass();
             //Sorting.NumberOfPositiveTwoDimensionalArray();
-            Sorting.SortingTwoDimensionalArray();
+          //  Sorting.SortingTwoDimensionalArray();
 
             //  SmallestElementOfAnArray.ReverseOrder();
             // SmallestElementOfAnArray.Name();
